@@ -69,3 +69,15 @@ button {
     color: aliceblue;
     padding: 30px;
 }
+
+
+.login input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.login input[type="text"]:focus {
+    outline: none;
+    border-color: purple;
+}
