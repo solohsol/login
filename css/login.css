@@ -46,6 +46,7 @@ button {
     cursor: pointer;
     background-color: purple;
     color: white;
+    border-radius: 20px;
 }
 
 .signup {
