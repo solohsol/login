@@ -4,25 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>login</title>
-    <link rel="stylesheet" href="/login.css" />
+    <link rel="stylesheet" href="/css/signup.css" />
   </head>
   <body>
 
-    <h1>create your Account!</h1>
-    <h3>join us today and start exploring a simpler, faster and <br> more connected digital exprience</h3>
-    <input type="text " placeholder="name">
-    <input type="text " placeholder="last Name">
+   <div class="main">
+    <div class="left">
 
-    <input type="email" placeholder="enter your email">
-    <input type="password" placeholder="enter your password">
-    <input type="password" placeholder="confirm password">
+     <h1>create your Account!</h1>
+    <h3>join us today and start exploring a simpler, faster and <br> more connected digital exprience</h3>
+    <input  type="text " id="name" placeholder="name">
+    <!-- <input type="text " placeholder="last Name"> -->
+
+    <input  type="email" id="email" placeholder="enter your email">
+    <input type="password" id="password" placeholder="enter your password">
+    <!-- <input type="password" placeholder="confirm password"> -->
+
+
+
+    <div class="policy">
+      <input type="checkbox">
+     <p>i agree with the <a href="#">terms of sevice</a> and <a href="#">privacy policy</a></p>
+    </div>
 
     
 
-    <button>sign up</button>
+    <button id="create">create</button>
     <p>already have an account?</p>
     <a href="/html/login.html">login</a>
 
+
+   </div>
+
+   <div class="right">
+    <img src="/img/pexels-raul-sotomayor-2154397849-33201494.jpg" alt="">
+   </div>
+
+   </div>
   
     <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-analytics.js"></script>

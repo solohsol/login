@@ -9,7 +9,7 @@ document.getElementById("create").onclick = function(){
     // Signed in 
     var user = userCredential.user;
 
-    window.location.href = "/home.html"
+    window.location.href = "/html/signup.html"
     // ...
   })
   .catch((error) => {
